@@ -1,5 +1,5 @@
-import 'package:flushcard_quiz_app/flashcard_provider.dart';
-import 'package:flushcard_quiz_app/flashcard_list.dart';
+import 'package:flushcard_quiz_app/provider/flashcard_provider.dart';
+import 'package:flushcard_quiz_app/widget/flashcard_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -39,3 +39,10 @@ class QuizPage extends StatelessWidget {
     );
   }
 }
+/**
+ Question: What is the difference between a compiler and an interpreter?
+Answer: A compiler translates the entire program into machine code before execution, while an interpreter translates and executes the code line by line.
+
+2. Question: What is the difference between stack and queue data structures?
+Answer: A stack follows the Last In, First Out (LIFO) principle, while a queue follows the First In, First Out (FIFO) principle.
+ */

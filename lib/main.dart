@@ -1,5 +1,5 @@
-import 'package:flushcard_quiz_app/flashcard_provider.dart';
-import 'package:flushcard_quiz_app/home_page.dart';
+import 'package:flushcard_quiz_app/provider/flashcard_provider.dart';
+import 'package:flushcard_quiz_app/widget/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

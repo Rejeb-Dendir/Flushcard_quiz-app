@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flushcard_quiz_app/quiz_page.dart';
-import 'package:flushcard_quiz_app/add_flashcard_page.dart';
+import 'package:flushcard_quiz_app/pages/quiz_page.dart';
+import 'package:flushcard_quiz_app/pages/add_flashcard_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
         children: pages,
       ),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Color.fromARGB(255, 107, 103, 103),
+        backgroundColor: const Color.fromARGB(255, 107, 103, 103),
         iconSize: 35,
         selectedFontSize: 0,
         unselectedFontSize: 0,
